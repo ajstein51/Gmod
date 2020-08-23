@@ -412,13 +412,13 @@ TEAM_Security8 = DarkRP.createJob("Security Commander", {
 })
 
 ---MTF Zeta-16
-TEAM_Zeta71 = DarkRP.createJob("FPD Recruit", {
+TEAM_Zeta71 = DarkRP.createJob("Zeta-16 Private", {
     color = Color(133, 110, 77, 255),
     model = {"models/Humans/Group01/Female_01.mdl"},
     description = [[MTF Zeta-16 is responsible for the protection of Surface above the Site. Zeta-16 Personnel are disguised as Local Law Enforcement Officers.]],
     weapons = {none},
     command = "Zeta71",
-    max = 5,
+    max = 8,
     salary = 100,
     admin = 0,
     category = "MTF Zeta-16",
@@ -429,13 +429,13 @@ TEAM_Zeta71 = DarkRP.createJob("FPD Recruit", {
     end
 })
 
-TEAM_Zeta72 = DarkRP.createJob("FPD Probationary Officer", {
+TEAM_Zeta72 = DarkRP.createJob("Zeta-16 Corporal", {
     color = Color(133, 110, 77, 255),
     model = {"models/Humans/Group01/Female_01.mdl"},
     description = [[MTF Zeta-16 is responsible for the protection of Surface above the Site. Zeta-16 Personnel are disguised as Local Law Enforcement Officers.]],
     weapons = {none},
     command = "Zeta72",
-    max = 3,
+    max = 6,
     salary = 100,
     admin = 0,
     category = "MTF Zeta-16",
@@ -447,13 +447,13 @@ TEAM_Zeta72 = DarkRP.createJob("FPD Probationary Officer", {
     end
 })
 
-TEAM_Zeta73 = DarkRP.createJob("FPD Officer", {
+TEAM_Zeta73 = DarkRP.createJob("Zeta-16 Sergeant", {
     color = Color(133, 110, 77, 255),
     model = {"models/Humans/Group01/Female_01.mdl"},
     description = [[MTF Zeta-16 is responsible for the protection of Surface above the Site. Zeta-16 Personnel are disguised as Local Law Enforcement Officers.]],
     weapons = {none},
     command = "Zeta73",
-    max = 3,
+    max = 6,
     salary = 100,
     admin = 0,
     category = "MTF Zeta-16",
@@ -465,17 +465,17 @@ TEAM_Zeta73 = DarkRP.createJob("FPD Officer", {
     end
 })
 
-TEAM_Zeta74 = DarkRP.createJob("FPD Senior Officer", {
+TEAM_Zeta74 = DarkRP.createJob("Zeta-16 Lieutenant", {
     color = Color(133, 110, 77, 255),
     model = {"models/Humans/Group01/Female_01.mdl"},
     description = [[MTF Zeta-16 is responsible for the protection of Surface above the Site. Zeta-16 Personnel are disguised as Local Law Enforcement Officers.]],
     weapons = {none},
     command = "Zeta74",
-    max = 2,
+    max = 3,
     salary = 100,
     admin = 0,
     category = "MTF Zeta-16",
-	sortOrder = 4,
+	sortOrder = 95,
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(200)
         ply:SetHealth(200)
@@ -483,62 +483,7 @@ TEAM_Zeta74 = DarkRP.createJob("FPD Senior Officer", {
     end
 })
 
-TEAM_Zeta75 = DarkRP.createJob("FPD Corporal", {
-    color = Color(133, 110, 77, 255),
-    model = {"models/Humans/Group01/Female_01.mdl"},
-    description = [[MTF Zeta-16 is responsible for the protection of Surface above the Site. Zeta-16 Personnel are disguised as Local Law Enforcement Officers.]],
-    weapons = {none},
-    command = "Zeta75",
-    max = 2,
-    salary = 100,
-    admin = 0,
-    category = "MTF Zeta-16",
-	sortOrder = 5,
-    PlayerSpawn = function(ply)
-        ply:SetMaxHealth(225)
-        ply:SetHealth(225)
-		ply:SetArmor(75)
-    end
-})
-
-
-TEAM_Zeta76 = DarkRP.createJob("FPD Sergeant", {
-    color = Color(133, 110, 77, 255),
-    model = {"models/Humans/Group01/Female_01.mdl"},
-    description = [[MTF Zeta-16 is responsible for the protection of Surface above the Site. Zeta-16 Personnel are disguised as Local Law Enforcement Officers.]],
-    weapons = {none},
-    command = "Zeta76",
-    max = 2,
-    salary = 100,
-    admin = 0,
-    category = "MTF Zeta-16",
-	sortOrder = 6,
-    PlayerSpawn = function(ply)
-        ply:SetMaxHealth(250)
-        ply:SetHealth(250)
-		ply:SetArmor(100)
-    end
-})
-
-TEAM_Zeta77 = DarkRP.createJob("FPD Lieutenant", {
-    color = Color(133, 110, 77, 255),
-    model = {"models/Humans/Group01/Female_01.mdl"},
-    description = [[MTF Zeta-16 is responsible for the protection of Surface above the Site. Zeta-16 Personnel are disguised as Local Law Enforcement Officers.]],
-    weapons = {none},
-    command = "Zeta77",
-    max = 1,
-    salary = 100,
-    admin = 0,
-    category = "MTF Zeta-16",
-	sortOrder = 7,
-    PlayerSpawn = function(ply)
-        ply:SetMaxHealth(275)
-        ply:SetHealth(275)
-		ply:SetArmor(100)
-    end
-})
-
-TEAM_Zeta78 = DarkRP.createJob("FPD Captain", {
+TEAM_Zeta78 = DarkRP.createJob("Zeta-16 Captain", {
     color = Color(133, 110, 77, 255),
     model = {"models/Humans/Group01/Female_01.mdl"},
     description = [[MTF Zeta-16 is responsible for the protection of Surface above the Site. Zeta-16 Personnel are disguised as Local Law Enforcement Officers.]],
@@ -548,7 +493,7 @@ TEAM_Zeta78 = DarkRP.createJob("FPD Captain", {
     salary = 100,
     admin = 0,
     category = "MTF Zeta-16",
-	sortOrder = 8,
+	sortOrder = 96,
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(300)
         ply:SetHealth(300)
@@ -556,7 +501,7 @@ TEAM_Zeta78 = DarkRP.createJob("FPD Captain", {
     end
 })
 
-TEAM_Zeta79 = DarkRP.createJob("FPD Deputy Chief", {
+TEAM_Zeta79 = DarkRP.createJob("Zeta-16 Major", {
     color = Color(133, 110, 77, 255),
     model = {"models/Humans/Group01/Female_01.mdl"},
     description = [[MTF Zeta-16 is responsible for the protection of Surface above the Site. Zeta-16 Personnel are disguised as Local Law Enforcement Officers.]],
@@ -566,7 +511,7 @@ TEAM_Zeta79 = DarkRP.createJob("FPD Deputy Chief", {
     salary = 100,
     admin = 0,
     category = "MTF Zeta-16",
-	sortOrder = 9,
+	sortOrder = 97,
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(300)
         ply:SetHealth(300)
@@ -574,7 +519,7 @@ TEAM_Zeta79 = DarkRP.createJob("FPD Deputy Chief", {
     end
 })
 
-TEAM_Zeta710 = DarkRP.createJob("FPD Chief", {
+TEAM_Zeta710 = DarkRP.createJob("Zeta-16 Executive Officer", {
     color = Color(133, 110, 77, 255),
     model = {"models/Humans/Group01/Female_01.mdl"},
     description = [[MTF Zeta-16 is responsible for the protection of Surface above the Site. Zeta-16 Personnel are disguised as Local Law Enforcement Officers.]],
@@ -584,7 +529,7 @@ TEAM_Zeta710 = DarkRP.createJob("FPD Chief", {
     salary = 100,
     admin = 0,
     category = "MTF Zeta-16",
-	sortOrder = 10,
+	sortOrder = 98,
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(300)
         ply:SetHealth(300)
@@ -592,7 +537,7 @@ TEAM_Zeta710 = DarkRP.createJob("FPD Chief", {
     end
 })
 
-TEAM_Zeta711 = DarkRP.createJob("Zeta-16 K-9", {
+TEAM_Zeta711 = DarkRP.createJob("Zeta-16 Commander", {
     color = Color(133, 110, 77, 255),
     model = {"models/Humans/Group01/Female_01.mdl"},
     description = [[MTF Zeta-16 is responsible for the protection of Surface above the Site. Zeta-16 Personnel are disguised as Local Law Enforcement Officers.]],
@@ -602,15 +547,176 @@ TEAM_Zeta711 = DarkRP.createJob("Zeta-16 K-9", {
     salary = 100,
     admin = 0,
     category = "MTF Zeta-16",
-	sortOrder = 11,
+	sortOrder = 99,
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(150)
-        ply:SetHealth(150)
+        ply:SetMaxHealth(300)
+        ply:SetHealth(300)
 		ply:SetArmor(100)
-		GAMEMODE:SetPlayerSpeed(ply, GAMEMODE.Config.walkspeed * 1.0, GAMEMODE.Config.runspeed * 1.3)
     end
 })
 
+-- Zeta Sub Classes
+TEAM_Zeta712 = DarkRP.createJob("Zeta-16 Engineer Sergeant", {
+    color = Color(133, 110, 77, 255),
+    model = {"models/Humans/Group01/Female_01.mdl"},
+    description = [[MTF Zeta-16 is responsible for the protection of Surface above the Site. Zeta-16 Personnel are disguised as Local Law Enforcement Officers.]],
+    weapons = {none},
+    command = "Zeta712",
+    max = 4,
+    salary = 100,
+    admin = 0,
+    category = "MTF Zeta-16",
+	sortOrder = 12,
+    PlayerSpawn = function(ply)
+        ply:SetMaxHealth(300)
+        ply:SetHealth(300)
+		ply:SetArmor(100)
+    end
+})
+
+TEAM_Zeta713 = DarkRP.createJob("Zeta-16 Engineer Lieutenant", {
+    color = Color(133, 110, 77, 255),
+    model = {"models/Humans/Group01/Female_01.mdl"},
+    description = [[MTF Zeta-16 is responsible for the protection of Surface above the Site. Zeta-16 Personnel are disguised as Local Law Enforcement Officers.]],
+    weapons = {none},
+    command = "Zeta713",
+    max = 1,
+    salary = 100,
+    admin = 0,
+    category = "MTF Zeta-16",
+	sortOrder = 13,
+    PlayerSpawn = function(ply)
+        ply:SetMaxHealth(300)
+        ply:SetHealth(300)
+		ply:SetArmor(100)
+    end
+})
+
+TEAM_Zeta714 = DarkRP.createJob("Zeta-16 Engineer Captain", {
+    color = Color(133, 110, 77, 255),
+    model = {"models/Humans/Group01/Female_01.mdl"},
+    description = [[MTF Zeta-16 is responsible for the protection of Surface above the Site. Zeta-16 Personnel are disguised as Local Law Enforcement Officers.]],
+    weapons = {none},
+    command = "Zeta714",
+    max = 1,
+    salary = 100,
+    admin = 0,
+    category = "MTF Zeta-16",
+	sortOrder = 14,
+    PlayerSpawn = function(ply)
+        ply:SetMaxHealth(300)
+        ply:SetHealth(300)
+		ply:SetArmor(100)
+    end
+})
+
+TEAM_Zeta715 = DarkRP.createJob("Zeta-16 Heavy Sergeant", {
+    color = Color(133, 110, 77, 255),
+    model = {"models/Humans/Group01/Female_01.mdl"},
+    description = [[MTF Zeta-16 is responsible for the protection of Surface above the Site. Zeta-16 Personnel are disguised as Local Law Enforcement Officers.]],
+    weapons = {none},
+    command = "Zeta715",
+    max = 4,
+    salary = 100,
+    admin = 0,
+    category = "MTF Zeta-16",
+	sortOrder = 15,
+    PlayerSpawn = function(ply)
+        ply:SetMaxHealth(300)
+        ply:SetHealth(300)
+		ply:SetArmor(100)
+    end
+})
+
+TEAM_Zeta716 = DarkRP.createJob("Zeta-16 Heavy Lieutenant", {
+    color = Color(133, 110, 77, 255),
+    model = {"models/Humans/Group01/Female_01.mdl"},
+    description = [[MTF Zeta-16 is responsible for the protection of Surface above the Site. Zeta-16 Personnel are disguised as Local Law Enforcement Officers.]],
+    weapons = {none},
+    command = "Zeta716",
+    max = 1,
+    salary = 100,
+    admin = 0,
+    category = "MTF Zeta-16",
+	sortOrder = 16,
+    PlayerSpawn = function(ply)
+        ply:SetMaxHealth(300)
+        ply:SetHealth(300)
+		ply:SetArmor(100)
+    end
+})
+
+TEAM_Zeta717 = DarkRP.createJob("Zeta-16 Heavy Captain", {
+    color = Color(133, 110, 77, 255),
+    model = {"models/Humans/Group01/Female_01.mdl"},
+    description = [[MTF Zeta-16 is responsible for the protection of Surface above the Site. Zeta-16 Personnel are disguised as Local Law Enforcement Officers.]],
+    weapons = {none},
+    command = "Zeta717",
+    max = 1,
+    salary = 100,
+    admin = 0,
+    category = "MTF Zeta-16",
+	sortOrder = 17,
+    PlayerSpawn = function(ply)
+        ply:SetMaxHealth(300)
+        ply:SetHealth(300)
+		ply:SetArmor(100)
+    end
+})
+
+TEAM_Zeta718 = DarkRP.createJob("Zeta-16 Recon Sergeant", {
+    color = Color(133, 110, 77, 255),
+    model = {"models/Humans/Group01/Female_01.mdl"},
+    description = [[MTF Zeta-16 is responsible for the protection of Surface above the Site. Zeta-16 Personnel are disguised as Local Law Enforcement Officers.]],
+    weapons = {none},
+    command = "Zeta718",
+    max = 1,
+    salary = 100,
+    admin = 0,
+    category = "MTF Zeta-16",
+	sortOrder = 18,
+    PlayerSpawn = function(ply)
+        ply:SetMaxHealth(300)
+        ply:SetHealth(300)
+		ply:SetArmor(100)
+    end
+})
+
+TEAM_Zeta719 = DarkRP.createJob("Zeta-16 Recon Lieutenant", {
+    color = Color(133, 110, 77, 255),
+    model = {"models/Humans/Group01/Female_01.mdl"},
+    description = [[MTF Zeta-16 is responsible for the protection of Surface above the Site. Zeta-16 Personnel are disguised as Local Law Enforcement Officers.]],
+    weapons = {none},
+    command = "Zeta719",
+    max = 1,
+    salary = 100,
+    admin = 0,
+    category = "MTF Zeta-16",
+	sortOrder = 19,
+    PlayerSpawn = function(ply)
+        ply:SetMaxHealth(300)
+        ply:SetHealth(300)
+		ply:SetArmor(100)
+    end
+})
+
+TEAM_Zeta720 = DarkRP.createJob("Zeta-16 Recon Captain", {
+    color = Color(133, 110, 77, 255),
+    model = {"models/Humans/Group01/Female_01.mdl"},
+    description = [[MTF Zeta-16 is responsible for the protection of Surface above the Site. Zeta-16 Personnel are disguised as Local Law Enforcement Officers.]],
+    weapons = {none},
+    command = "Zeta720",
+    max = 1,
+    salary = 100,
+    admin = 0,
+    category = "MTF Zeta-16",
+	sortOrder = 20,
+    PlayerSpawn = function(ply)
+        ply:SetMaxHealth(300)
+        ply:SetHealth(300)
+		ply:SetArmor(100)
+    end
+})
 
 ---Foundation Administration
 TEAM_fasd = DarkRP.createJob("Site Director", {
